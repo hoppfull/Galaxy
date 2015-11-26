@@ -58,7 +58,7 @@ $(document).ready(function(){
 	var turn = 0.0;
 	
 	window.setInterval(function(){
-		turn += 1/600;
+		turn += 5/600;
 		
 		myRenderer.clear();
 		myRenderer.draw(myModel.buffer, myShader, [
